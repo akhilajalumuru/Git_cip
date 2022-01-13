@@ -27,6 +27,7 @@ export class Runner{
         // cy.get('[style="height: 50px; width: 100%;"]').should('contain','Total a + b = 5')
         //akhik;alrevatiyele
         //sandeepjsgijck
+        //nnkjmmmnjknj hbunnu
     }
     checkBox(){
         cy.get('.open > .dropdown-menu > :nth-child(2) > a').click()  // select checkbox demo
