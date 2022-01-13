@@ -25,6 +25,8 @@ export class Runner{
         cy.get('#gettotal > .btn').click() // click get_total
         cy.wait(2000)
         // cy.get('[style="height: 50px; width: 100%;"]').should('contain','Total a + b = 5')
+        //akhik;alrevatiyele
+        //sandeepjsgijck
     }
     checkBox(){
         cy.get('.open > .dropdown-menu > :nth-child(2) > a').click()  // select checkbox demo
