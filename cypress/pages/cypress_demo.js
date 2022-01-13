@@ -23,7 +23,7 @@ export class Runner{
         cy.get('#sum1').type(a)  // enter a value
         cy.get('#sum2').type(b)  // enter b value
         cy.get('#gettotal > .btn').click() // click get_total
-        // cy.wait(2000)
+        cy.wait(2000)
         // cy.get('[style="height: 50px; width: 100%;"]').should('contain','Total a + b = 5')
     }
     checkBox(){
